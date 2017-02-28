@@ -1,0 +1,20 @@
+doctype html
+head
+  title Pomodoro Clock
+  link(rel="stylesheet", href="/css/style.css")
+  link(rel="stylesheet", href="/css/normalize.css")
+  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Titillium+Web")
+
+body
+  .buttons
+    button#reset.hidden reset
+    button#minus -
+    button#start start
+    button#plus +
+  .container
+    h1 Pomodoro Clock
+
+    .circle
+      p#timer 10:00
+
+script(src="js/pomodoro.js")
